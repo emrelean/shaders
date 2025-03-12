@@ -21,7 +21,6 @@ Bloom.Size = 10
 Bloom.Threshold = 0.8
 Bloom.Parent = Lighting
 
--- Blur-Effekt erstellen
 local Blur = Instance.new("BlurEffect")
 Blur.Size = 5
 Blur.Parent = Lighting
