@@ -1,5 +1,3 @@
-﻿local Lighting = game:GetService("Lighting")
-
 local Sky = Instance.new("Sky")
 Sky.SkyboxBk = "http://www.roblox.com/asset/?id=144933338"
 Sky.SkyboxDn = "http://www.roblox.com/asset/?id=144931530"
