@@ -1,0 +1,27 @@
+local Lighting = game:GetService("Lighting")
+
+Lighting.Brightness = 2.25
+Lighting.ExposureCompensation = 0.1
+Lighting.ClockTime = 17.55
+
+local Bloom = Instance.new("BloomEffect")
+Bloom.Intensity = 0.3
+Bloom.Size = 10
+Bloom.Threshold = 0.8
+Bloom.Parent = Lighting
+
+local Blur = Instance.new("BlurEffect")
+Blur.Size = 5
+Blur.Parent = Lighting
+
+local ColorC = Instance.new("ColorCorrectionEffect")
+ColorC.Brightness = 0
+ColorC.Contrast = 0.1
+ColorC.Saturation = 0.25
+ColorC.TintColor = Color3.fromRGB(255, 255, 255)
+ColorC.Parent = Lighting
+
+local SunRays = Instance.new("SunRaysEffect")
+SunRays.Intensity = 0.1
+SunRays.Spread = 0.8
+SunRays.Parent = Lighting
